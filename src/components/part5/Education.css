@@ -1,0 +1,109 @@
+/* eduaction */
+.Education__container {
+  margin: 2rem auto;
+  width: 90%;
+}
+.fantasy-E{
+    font-weight: 400;
+  opacity: 0.5;
+  text-align: end;
+}
+.Education__container-header {
+  font-size: 2rem;
+  color: var(--primary-blue);
+  margin-bottom: 3rem;
+}
+.certificates {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.Education__container-content {
+  width: 38%;
+  background-color: white;
+  gap: 0.76rem;
+  align-items: flex-start;
+  border: 0.25px solid rgba(100, 100, 100, 0.2);
+  box-shadow: 0 0 6px 6px rgba(130, 130, 130, 0.05);
+}
+.Education__container-content > img {
+  width: 200px;
+  height: 180px;
+}
+.Education__container-contentYear {
+  padding-top: 2rem;
+  /* border: 2px solid red; */
+}
+.Education__container-contentYear > h1 {
+  color: var(--primary-blue);
+  font-size: 1.15rem;
+  font-weight: 600;
+  width: fit-content;
+}
+.Education__container-contentYear > div > h3 {
+  font-size: 1rem;
+  font-weight: 550;
+  margin-bottom: 15px;
+}
+
+.Education__container-contentYear > div > span {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  font-weight: 400;
+  color: black;
+  display: block;
+  width: 90%;
+}
+.Education__container-contentYear > div > span ul {
+  margin: 0.5rem 2rem;
+}
+
+/* media */
+/* queries */
+
+@media screen and (0<width<850px) {
+  .Education__container-content {
+    flex-direction: column;
+    padding: 5px;
+    width: 43%;
+  }
+  .Education__container-content > img {
+    width: 100%;
+    height: 250px;
+  }
+  .Education__container-contentYear {
+    margin: auto;
+    padding: 10px;
+  }
+  .Education__container-contentYear > div > span ul {
+    display: none;
+  }
+}
+@media screen and (850px<width<1325px) {
+  .Education__container-content {
+    /* flex-direction: column; */
+    width: 60%;
+    padding: 5px;
+  }
+  .Education__container-content > img {
+    height: 180px;
+  }
+
+  .Education__container-contentYear {
+    margin: auto;
+    padding: 10px;
+  }
+  .Education__container-contentYear > div > span ul {
+    display: none;
+  }
+}
+
+@media screen and (0<width<580px) {
+  .Education__container-content > img {
+    width: 100%;
+    height: 180px;
+  }
+  .Education__container-content {
+    width: 300px;
+  }
+}

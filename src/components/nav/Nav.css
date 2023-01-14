@@ -1,0 +1,14 @@
+.Nav__container {
+  height: 50px;
+background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Nav__container ul li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+.Nav__container  i{
+font-size: 1.25rem;
+}
