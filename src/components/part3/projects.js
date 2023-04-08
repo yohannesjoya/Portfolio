@@ -144,13 +144,13 @@ export const WebApp = [
     scrnDescription:
       "AMAZON website clone with payment system created with React, Mysql, Express, Firebase and Stripe",
   },
-  {
-    scrnImg: ZoomClone,
-    scrnTitle: "FULL STACK",
-    scrnHeader: "Zoom Clone",
-    scrnDescription:
-      "Zoom website clone created with Express, Socket io  . . . ",
-  },
+  // {
+  //   scrnImg: ZoomClone,
+  //   scrnTitle: "FULL STACK",
+  //   scrnHeader: "Zoom Clone",
+  //   scrnDescription:
+  //     "Zoom website clone created with Express, Socket io  . . . ",
+  // },
   // {
   //   scrnImg: RobinhoodClone,
   //   scrnTitle: "FULL STACK",
@@ -263,13 +263,13 @@ export const Programing = [
 // ! All Projects
 
 export const Allprojects = [
-  {
-    scrnImg: ZoomClone,
-    scrnTitle: "FULL STACK",
-    scrnHeader: "Zoom Clone",
-    scrnDescription:
-      "Zoom website clone created with Express, Socket io  . . . ",
-  },
+  // {
+  //   scrnImg: ZoomClone,
+  //   scrnTitle: "FULL STACK",
+  //   scrnHeader: "Zoom Clone",
+  //   scrnDescription:
+  //     "Zoom website clone created with Express, Socket io  . . . ",
+  // },
 
   {
     projectLink: "https://jodigitalasella.netlify.app/",

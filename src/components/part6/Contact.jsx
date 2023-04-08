@@ -12,7 +12,9 @@ const Contact = () => {
       <div className="Contact__container-socials basic-flex">
         <div className="social email basic-flex">
           <img src={email} alt="" />
-          <p>YohannesDestagerbu10@gmail.com</p>
+          <a href="mailto:YohannesDestagerbu10@gmail.com">
+            <p>YohannesDestagerbu10@gmail.com</p>
+          </a>
         </div>
         <div className="social linkedin basic-flex">
           <img src={linkedin} alt="" />

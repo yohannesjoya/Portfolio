@@ -22,7 +22,7 @@ const Iam = () => {
           <div className="Iam__content-description">
             <h1>Frontend Developer</h1>
             <p>
-              I am a frontend developer with passion for building beautiful and
+              I am a Frontend developer with passion for building beautiful and
               functional web application
             </p>
           </div>
@@ -32,8 +32,8 @@ const Iam = () => {
           <div className="Iam__content-description">
             <h1>Backend Developer</h1>
             <p>
-              I am a frontend developer with passion for building beautiful and
-              functional web application
+              I a Backend developer with passion for building secure and
+              functional RestApis
             </p>
           </div>
         </div>
@@ -41,10 +41,7 @@ const Iam = () => {
           <img src={webDesigner} alt="" />
           <div className="Iam__content-description">
             <h1>Web Designer</h1>
-            <p>
-              I am a frontend developer with passion for building beautiful and
-              functional web application
-            </p>
+            <p>I Design Fully responsive, beautiful and functional websites</p>
           </div>
         </div>
         <div className="Iam__content-4">
@@ -52,8 +49,8 @@ const Iam = () => {
           <div className="Iam__content-description">
             <h1>Digital Arts</h1>
             <p>
-              I am a frontend developer with passion for building beautiful and
-              functional web application
+              I have experience in Digital values like Photos and Videos
+              including use of famous Adobe Products
             </p>
           </div>
         </div>

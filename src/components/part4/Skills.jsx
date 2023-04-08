@@ -209,8 +209,8 @@ const Skills = () => {
             <h1>2022</h1>
             <div>
               <h3>Full stack Developer</h3>
-              <span>Startup</span>
-              <span>Freelance</span>
+              {/* <span>Startup</span>
+              <span>Freelance</span> */}
             </div>
           </div>
           {/* <div className="Experience__container-Year basic-flex">
@@ -226,7 +226,13 @@ const Skills = () => {
               style={{ height: "430px", overflowY: "hidden" }}
             >
               <h3>Resume</h3>
-              <a href={resume} target="_blank" title="Click Here">
+              <a
+                href={
+                  "https://drive.google.com/file/d/1PUczOy1GxJ2k_mVUNKv4PnkWWFOPdcQM/view?usp=sharing"
+                }
+                target="_blank"
+                title="Click Here"
+              >
                 <div>
                   <img
                     src={resume}
